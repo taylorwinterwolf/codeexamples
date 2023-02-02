@@ -3,10 +3,10 @@ ob_start();
 $testing = 'false';
 
 echo "<link rel='stylesheet' type='text/css' href='../style.css'>";
-require('assets/functions.php');
-require('class/functions.php');
-require('class/validate.php');
-require('class/maropostAPI.php');
+require('customFunctions.php');
+require('functions.php');
+require('validate.php');
+require('maropostAPI.php');
 
 if($testing == 'true'){
     printNeat($_REQUEST, "Request Info");
