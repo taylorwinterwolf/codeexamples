@@ -1,4 +1,5 @@
 <?php
+//THIS CLASS SUPPORTS subscribe.php
 class functions {
 
     function getListID($listname){
