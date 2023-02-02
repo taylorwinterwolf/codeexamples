@@ -4,7 +4,7 @@
 
 echo "This is not the page you are looking for...";
 
-require('functions.php');
+require('ipnFunctions.php');
 require('decrypt.php');
 $ipnDecrypt = new decrypt();
 
