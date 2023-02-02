@@ -2,7 +2,6 @@
 ob_start();
 $testing = 'false';
 
-echo "<link rel='stylesheet' type='text/css' href='../style.css'>";
 require('customFunctions.php');
 require('functions.php');
 require('validate.php');
