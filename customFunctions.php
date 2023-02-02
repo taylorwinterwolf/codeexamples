@@ -1,4 +1,5 @@
 <?php
+//THIS IS A SET OF CUSTOM FUNCTIONS I WROTE TO MAKE TESTING EASIER FOR MYSELF THIS FILE SUPPORTS subscribe.php
 
 function convertToDate($epochTime){
     $epoch = $epochTime-25200;
